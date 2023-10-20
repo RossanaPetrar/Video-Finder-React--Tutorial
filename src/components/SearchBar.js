@@ -1,4 +1,5 @@
 import React from "react";
+import "./SearchBar.css";
 
 class SearchBar extends React.Component {
   state = { term: "" };
@@ -13,11 +14,13 @@ class SearchBar extends React.Component {
   };
   render() {
     return (
-      <div className="search-bar ui segment">
+      <div className="search-bar ui category search centered page grid">
         <form onSubmit={this.onFormSubmit} className="ui form">
-          <div className="filed">
-            <label>Video Search</label>
-            <input type="text" value={this.state.term} onChange={this.onInputChange} />
+          <div className="field">
+            <div className="ui icon input ">
+              <input type="text" value={this.state.term} onChange={this.onInputChange} placeholder="Search for a video..." className="search-input prompt " id="search-bar-input" />
+              <i className="search icon"></i>
+            </div>
           </div>
         </form>
       </div>
