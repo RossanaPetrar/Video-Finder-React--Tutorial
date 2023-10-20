@@ -1,6 +1,22 @@
 # Video-Finder-React--Tutorial
 
-This is an app made after a tutorial in the Modern React and Redux Udemy Course (https://www.udemy.com/course/react-redux/) lets the user search for videos by inputing a search term in the search bar.
+This is an app made after a tutorial in the Modern React and Redux Udemy Course (https://www.udemy.com/course/react-redux/) that lets the user search for videos by inputing a search term in the search bar.
+
+When first opening the app, the page looks like this:
+
+![main page](https://github.com/RossanaPetrar/Video-Finder-React--Tutorial-WIP/assets/97961954/9be572b3-4f1e-4be3-a824-91461c2692a1)
+
+You can input text into the search bar.
+
+![search bar](https://github.com/RossanaPetrar/Video-Finder-React--Tutorial-WIP/assets/97961954/368b7ab0-b2ae-4d8c-bfa2-64d3ba411268)
+
+The video searched for and other videos on the same theme appear on the page.
+
+![search results](https://github.com/RossanaPetrar/Video-Finder-React--Tutorial-WIP/assets/97961954/828392a0-3847-4b51-8279-1561ec218613)
+
+You can play the video directly on this page.
+
+![video playing](https://github.com/RossanaPetrar/Video-Finder-React--Tutorial-WIP/assets/97961954/afba386e-b277-4c33-91fc-373d76d5e6a4)
 
 # Getting Started with Create React App
 
